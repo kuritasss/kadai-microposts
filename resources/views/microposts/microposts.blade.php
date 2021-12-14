@@ -22,6 +22,10 @@
                             {!! Form::close() !!}
                         @endif
                     </div>
+                    <div>
+                        {{-- Favorites／Unfavoritesボタンのフォーム --}}
+                        @include('microposts.favorite_button')
+                    </div>
                 </div>
             </li>
         @endforeach
